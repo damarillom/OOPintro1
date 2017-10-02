@@ -13,8 +13,8 @@ public class Equilatero extends Triangle {
 	 * @param base
 	 * @param height
 	 */
-	public Equilatero(double base, double height) {
-		super(base, height);
+	public Equilatero(double base, double height, double side1, double side2) {
+		super(base, height, side1, side2);
 		// TODO Auto-generated constructor stub
 	}
 

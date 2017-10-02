@@ -13,8 +13,8 @@ public class Escaleno extends Triangle {
 	 * @param base
 	 * @param height
 	 */
-	public Escaleno(double base, double height) {
-		super(base, height);
+	public Escaleno(double base, double height, double side1, double side2) {
+		super(base, height, side1, side2);
 		// TODO Auto-generated constructor stub
 	}
 
@@ -24,7 +24,7 @@ public class Escaleno extends Triangle {
 	@Override
 	public double perimeter() {
 		// TODO Auto-generated method stub
-		return base * height;
+		return base + side1 + side2;
 	}
 
 }
